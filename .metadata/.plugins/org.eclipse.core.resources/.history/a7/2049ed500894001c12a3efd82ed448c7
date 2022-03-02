@@ -1,0 +1,25 @@
+/*
+Program: Evens.java          Last Date of this Revision: February 22nd,2022
+
+Purpose: 
+
+Author: Tyler Grewal 
+School: CHHS
+Course: Computer Programming 20
+*/
+public class Evens 
+{
+
+	public static void main(String[] args) 
+	{
+		for (int i = 1; i<=20; i++)
+		{ 
+			if (i%2 ==2)
+			{
+				System.out.println(i);
+			}
+		}
+	
+	}
+
+}

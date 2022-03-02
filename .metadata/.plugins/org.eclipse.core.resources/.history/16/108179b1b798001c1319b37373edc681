@@ -1,0 +1,56 @@
+import java.util.Scanner;
+public class TimeConverter 
+{
+	public static void hourstominutes()
+	{
+		double hours, minutes;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the number of hours: ");
+		hours=input.nextDouble();
+		input.close();
+		
+		minutes = hours/60;
+		System.out.println("The number of minutes are: " + minutes);
+	}
+	
+	public static void minutestohours()
+	{
+		double hours, minutes;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the number of minutes: ");
+		minutes=input.nextDouble();
+		input.close();
+		
+		hours = minutes*60;
+		System.out.println("The number of hours are: " + hours);
+	}
+	
+	public static void hourstodays()
+	{
+		double hours, days;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the number of hours: ");
+		hours=input.nextDouble();
+		input.close();
+		
+		days=hours/24;
+		System.out.println("The number of days are: " + days);
+	}
+
+	public static void daystohours()
+	{
+		double hours, days;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the number of days: ");
+		days=input.nextDouble();
+		input.close();
+		
+		hours = days*24;
+		System.out.println("The number of hours are: " + hours);
+	}
+	public static void main(String[] args) {
+	
+
+	}
+
+}

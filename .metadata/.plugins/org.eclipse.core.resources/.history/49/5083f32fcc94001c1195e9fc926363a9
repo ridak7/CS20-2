@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class OddSum 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner myObj = new Scanner(System.in); 
+		System.out.println("Enter a number greater than 0: "); //user input
+		int number = myObj.nextInt(); //records input
+	
+		int sum = 0; //starts sum at 0
+		
+		for (int i = 1; i<=number; i++) //keeping adding 1 to 1 until it becomes 20
+		{ 
+			if (i%2 ==1) //checks to see if it's even
+			{
+				System.out.println(i); // output
+				sum = sum + i; // adds num to sum until num reaches number put in 
+			}
+		}
+		System.out.println("sum: " + sum); //displays sum 
+	}
+		
+
+	
+
+}
