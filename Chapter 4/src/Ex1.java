@@ -1,3 +1,4 @@
+//donee
 /*
 Program: Ex1.java          Last Date of this Revision: February 15th,2022
 
@@ -9,7 +10,8 @@ Course: Computer Programming 20
 */
 import java.util.Scanner;
 public class Ex1 {
-
+	
+//sssssssssssssssssssssssssssssssssssssssssssss
 	public static void main(String[] args) 
 	{
 		Scanner myObj = new Scanner(System.in);
