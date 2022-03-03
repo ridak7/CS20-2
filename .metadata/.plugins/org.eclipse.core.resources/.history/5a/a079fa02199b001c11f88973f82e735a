@@ -82,7 +82,7 @@ public class TimeConverter
 	else 
 		{
 		daystohours();
-		} 
+		}
 	input.close();
 	}
 } //end of class

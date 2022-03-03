@@ -62,10 +62,10 @@ public class TimeConverter
 	int choice;
 	Scanner input=new Scanner(System.in); //allows user to pick which conversion they want to choose
 	
-	System.out.println("1. hours to minutes conversion."); //displays choices
-	System.out.println("2. minutes to hours conversion.");
-	System.out.println("3. hours to days conversion.");
-	System.out.println("4. days to hours conversion.");
+	System.out.println("1. hours to minutes converstion."); //displays choices
+	System.out.println("2. minutes to hours converstion.");
+	System.out.println("3. hours to days converstion.");
+	System.out.println("4. days to hours converstion.");
 	choice = input.nextInt();
 	if (choice ==1) //sends input to start the one corresponding to the number
 		{
@@ -82,17 +82,7 @@ public class TimeConverter
 	else 
 		{
 		daystohours();
-		} 
+		}
 	input.close();
 	}
 } //end of class
-
-/*Screen Dump 
-1. hours to minutes conversion.
-2. minutes to hours conversion.
-3. hours to days conversion.
-4. days to hours conversion.
-3
-Enter the number of hours: 
-87
-The number of days are: 3.625 */

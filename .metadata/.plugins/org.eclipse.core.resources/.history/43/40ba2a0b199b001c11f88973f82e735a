@@ -65,7 +65,7 @@ public class TimeConverter
 	System.out.println("1. hours to minutes conversion."); //displays choices
 	System.out.println("2. minutes to hours conversion.");
 	System.out.println("3. hours to days conversion.");
-	System.out.println("4. days to hours conversion.");
+	System.out.println("4. days to hours conve rsion.");
 	choice = input.nextInt();
 	if (choice ==1) //sends input to start the one corresponding to the number
 		{
