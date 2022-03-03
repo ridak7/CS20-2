@@ -1,3 +1,4 @@
+//Done 
 /* Program: BinaryNumbers.java         Date: 2/8/2022
  
 Purpose: Create a BinaryNumbers application that illustrated the binary numbers 1 through 20 and their decimal equivalents
