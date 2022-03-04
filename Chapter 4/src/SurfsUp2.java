@@ -1,4 +1,4 @@
-/*
+/* s
 Program: SurfsUp2.java          Last Date of this Revision: February 14th,2022
 
 Purpose: An application that displays "Great day for surfing" when a wave height is 6 feet or over. and "Go body boarding" when it's less than 6 feet.

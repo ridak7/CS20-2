@@ -1,4 +1,4 @@
-/*
+/* 
 Program: SurfsUp3.java          Last Date of this Revision: February 14th,2022
 
 Purpose: An application that displays "Great day for surfing" when a wave height is 6 feet or over. and "Go body boarding" when it's between 3-6. "Go surfing" when its 0-3. and "Whoah! what kind of surf is that?" otherwise.
