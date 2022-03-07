@@ -9,7 +9,7 @@ School: CHHS
 Course: Computer Programming 20
 */
 
-public class ReviewRectanglePerimeter 
+public class ReviewRectanglePerimeter 						Hi Tyler, can we make this program dynamic by allowing the user to enter the width and length
 {
 
 	public static void main(String[] args) 
